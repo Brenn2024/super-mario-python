@@ -10,4 +10,5 @@ class Tile:
         try:
             pygame.draw.rect(screen, pygame.Color(255, 0, 0), self.rect, 1)
         except Exception:
+            print('Hi')
             pass

@@ -202,4 +202,5 @@ class Level:
     def addRedMushroom(self, x, y):
         self.entityList.append(
             RedMushroom(self.screen, self.sprites.spriteCollection, x, y, self, self.sound)
+
         )
